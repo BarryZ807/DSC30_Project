@@ -1,0 +1,47 @@
+java LineCounter fun1.txt fun2.txt
+
+fun1.txt:
+100% of lines are also in fun2.txt
+
+fun2.txt:
+100% of lines are also in fun1.txt
+
+
+---------------------------------------------------------------------
+java LineCounter fun1.txt fun2.txt fun3.txt
+
+fun1.txt:
+100% of lines are also in fun2.txt
+66% of lines are also in fun3.txt
+
+fun2.txt:
+100% of lines are also in fun1.txt
+66% of lines are also in fun3.txt
+
+fun3.txt:
+60% of lines are also in fun1.txt
+60% of lines are also in fun2.txt
+
+
+---------------------------------------------------------------------
+java LineCounter fun1.txt fun2.txt fun3.txt fun4.txt
+
+fun1.txt:
+100% of lines are also in fun2.txt
+66% of lines are also in fun3.txt
+88% of lines are also in fun4.txt
+
+fun2.txt:
+100% of lines are also in fun1.txt
+66% of lines are also in fun3.txt
+88% of lines are also in fun4.txt
+
+fun3.txt:
+60% of lines are also in fun1.txt
+60% of lines are also in fun2.txt
+60% of lines are also in fun4.txt
+
+fun4.txt:
+45% of lines are also in fun1.txt
+45% of lines are also in fun2.txt
+35% of lines are also in fun3.txt
